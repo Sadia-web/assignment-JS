@@ -15,7 +15,7 @@ console.log("Your Answer is:", yourMile);
 
 function woodCalculator(chair,table,bed){
     if(chair<0 || table<0 || bed<0){
-        return 'Wrong Input'
+        return 'Wrong Input';
     }
     var woodForChair = chair * 1;
     var woodForTable = table * 3;
